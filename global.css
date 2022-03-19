@@ -1,0 +1,67 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f9f9f9;
+  padding: 150px 300px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ABOUT */
+
+.about {
+
+}
+
+.about img {
+  border-radius: 50%;
+}
+
+.about h1 {
+  font-size: 5rem;
+  font-family: 'Inter', sans-serif;
+}
+
+/* UTILITY CLASSES */
+
+.font-style {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.remove-list-style {
+  list-style: none;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ml-0 {
+    margin-left: 0;
+}
+
+.mr-0 {
+    margin-right: 0;
+}
+
+/* MEDIA QUERRIES */
+
+/* @media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+} */
