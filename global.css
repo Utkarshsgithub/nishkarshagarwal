@@ -11,12 +11,18 @@ html {
 body {
   font-family: 'Inter', sans-serif;
   background-color: #f9f9f9;
-  padding: 150px 300px;
+  padding: 10% 20%;
 }
 
 a {
   text-decoration: none;
   color: inherit;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 40px;
 }
 
 /* ABOUT */
@@ -27,10 +33,13 @@ a {
 
 .about img {
   border-radius: 50%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .about h1 {
+  line-height: 125px;
   font-size: 5rem;
+  padding: 25px 0;
   font-family: 'Inter', sans-serif;
 }
 
@@ -38,6 +47,7 @@ a {
 
 .font-style {
   font-family: 'Libre Baskerville', serif;
+  font-weight: normal;
 }
 
 .remove-list-style {
@@ -60,8 +70,8 @@ a {
 
 /* MEDIA QUERRIES */
 
-/* @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1050px) {
   body {
-    background-color: lightblue;
+    padding: 5% 5%;
   }
-} */
+}
